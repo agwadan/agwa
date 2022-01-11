@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --primary-color: #0D174B;
+}
+
+.Grid{
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
