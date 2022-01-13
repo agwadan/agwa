@@ -3,7 +3,7 @@
   "homepage": "http://stayuganda.com",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start": "vite --open --host",
     "build": "vite build",
     "serve": "vite preview"
   },
