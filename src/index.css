@@ -18,5 +18,12 @@ code {
 
 .Grid{
   display: grid;
-  grid-template-columns: repeat(1, 2fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

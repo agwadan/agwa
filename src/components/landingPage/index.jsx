@@ -3,11 +3,13 @@ import Contact from '../contact';
 
 const LandingPage = () => {
   return (
-    <div>
-      <header className="App-header">
+    <div className='Grid'>
+      <div className='Flex'>
         <h1>Agwa</h1>
-      </header>
-      <Contact />
+      </div>
+      <div className='Flex'>
+        <Contact />
+      </div>
     </div>
   )
 }
