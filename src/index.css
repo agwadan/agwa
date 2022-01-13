@@ -14,6 +14,7 @@ code {
 
 :root{
   --primary-color: #0D174B;
+  --main-grey: #C4C4C4;
 }
 
 .Grid{
@@ -23,6 +24,7 @@ code {
 
 .Flex{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;

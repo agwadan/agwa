@@ -1,0 +1,9 @@
+.Section1{
+  background: var(--main-grey);
+  height: 100vh;
+}
+
+.Line{
+  border: 1px solid var(--primary-color);
+  width: 40%;
+}
