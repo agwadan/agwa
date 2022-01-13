@@ -7,3 +7,9 @@
   border: 1px solid var(--primary-color);
   width: 40%;
 }
+
+.Social{
+  flex-direction: row;
+  height: auto;
+  margin-top: 2rem;
+}

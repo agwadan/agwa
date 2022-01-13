@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './LandingPage.module.css';
+import { LinkedIn, GitHub } from '@material-ui/icons';
 
 
 const LandingPage = () => {
@@ -9,6 +10,10 @@ const LandingPage = () => {
       <h1>Agwa Daniel</h1>
       <h3>I am a Developer</h3>
       <div className={styles.Line} />
+      <div className={`${styles.Social} Flex`}>
+        <GitHub /><LinkedIn />
+      </div>
+
     </div>
   )
 }
