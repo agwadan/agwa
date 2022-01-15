@@ -13,9 +13,8 @@ const LandingPage = () => {
       <div className={`${styles.Social} Flex`}>
         <a href='https://github.com/agwadan' target='_blank'><GitHub /></a>
         <a href='https://www.linkedin.com/in/daniel-agwa-1019ab133/' target='_blank'><LinkedIn /></a>
-
       </div>
-
+      <button><a href='/src/assets/Resume.pdf' download>Download Resume</a></button>
     </div>
   )
 }
