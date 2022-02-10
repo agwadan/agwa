@@ -48,3 +48,9 @@ button{
   align-items: center;
   height: 100%;
 }
+
+.social-link{
+  height: 2rem;
+  padding: .5rem;
+  fill: var(--primary-color);
+}
