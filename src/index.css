@@ -1,4 +1,4 @@
-*{
+* {
   --primary-color: #0D174B;
   --main-white: #ffffff;
 }
@@ -17,31 +17,31 @@ code {
     monospace;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--main-white);
 }
 
-button{
+button {
   margin-top: 2rem;
   color: var(--main-white);
   background: var(--primary-color);
-  padding:1rem;
+  padding: 1rem;
   border-radius: .5rem;
   border: none
 }
 
-:root{
+:root {
   --primary-color: #0D174B;
   --main-grey: #C4C4C4;
 }
 
-.Grid{
+.Grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.Flex{
+.Flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,7 +49,7 @@ button{
   height: 100%;
 }
 
-.social-link{
+.Social-link {
   height: 2rem;
   padding: .5rem;
   fill: var(--primary-color);

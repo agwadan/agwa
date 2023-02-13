@@ -1,20 +1,29 @@
 import React from 'react';
 import styles from './LandingPage.module.css';
-import { LinkedIn, GitHub } from '@material-ui/icons';
+import ProfileImage from '../../../assets/images/profile.png';
 
 
 const LandingPage = () => {
   return (
-    <div className={`${styles.Section1} Flex`}>
-      <h3>Hi, my name is</h3>
-      <h1>Agwa Daniel</h1>
-      <h3>I am a Developer</h3>
-      <div className={styles.Line} />
-      <div className={`${styles.Social} Flex`}>
-        <a href='https://github.com/agwadan' target='_blank'><GitHub class='social-link' /></a>
-        <a href='https://www.linkedin.com/in/daniel-agwa-1019ab133/' target='_blank'><LinkedIn class='social-link' /></a>
+    <div className="Grid">
+      <div className="left">
+        <div className="flex">
+          <h1>Hi I am</h1>
+          <h1>Agwa Daniel</h1>
+          <h4>Frontend Developer</h4>
+        </div>
       </div>
-      <button class='DownloadResume'><a href='/src/assets/Resume.pdf' download>Download Resume</a></button>
+      <div className="right">
+        <nav>
+          <ul>
+            <li>About Me</li>
+            <li>Skills</li>
+            <li>Portfolio</li>
+            <li>Contact Me</li>
+          </ul>
+        </nav>
+        <img src={ProfileImage} alt="Profile Picture" />
+      </div>
     </div>
   )
 }
