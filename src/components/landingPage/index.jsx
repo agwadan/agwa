@@ -6,10 +6,10 @@ import ProfileImage from '../../../assets/images/profile.png';
 const LandingPage = () => {
   return (
     <div className="Grid">
-      <div className="left">
-        <div className="flex">
-          <h1>Hi I am</h1>
-          <h1>Agwa Daniel</h1>
+      <div className={styles.Left}>
+        <div>
+          <h1><span>Hi, I am</span><br />
+            Agwa Daniel</h1>
           <h4>Frontend Developer</h4>
         </div>
       </div>

@@ -31,6 +31,24 @@ button {
   border: none
 }
 
+h1 {
+
+  color: var(--main-white);
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 94px;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+ul {
+  list-style: none;
+}
+
 :root {
   --primary-color: #0D174B;
   --main-grey: #C4C4C4;

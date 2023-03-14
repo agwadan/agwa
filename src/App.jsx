@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-import LandingPage from './components/landingPage'
+import React, { useState } from 'react';
+import LandingPage from './components/landingPage';
 
 function App() {
   const [count, setCount] = useState(0)

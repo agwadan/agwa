@@ -1,15 +1,10 @@
-.Section1{
-  background: var(--main-grey);
-  height: 100vh;
+.Left {
+  background: var(--primary-color);
+  color: var(--main-white);
 }
 
-.Line{
-  border: 1px solid var(--primary-color);
-  width: 40%;
-}
-
-.Social{
-  flex-direction: row;
-  height: auto;
-  margin-top: 2rem;
+.Left h1 span {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
 }
