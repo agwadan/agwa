@@ -1,6 +1,7 @@
 import React from 'react';
-import CTA from '../CTA';
+import CTA from './CTA';
 import ProfileImg from '../../../assets/images/profile.png'
+import HeaderSocials from './HeaderSocials';
 
 const Header = () => {
   return (
@@ -9,10 +10,15 @@ const Header = () => {
         <h5>Hello I am</h5>
         <h1>Daniel Agwa</h1>
         <h5>Frontend Developer</h5>
-        <CTA />
+        <CTA />{/* Call to action */}
+        <HeaderSocials />
         <div className="profile-img">
           <img src={ProfileImg} alt="" />
         </div>
+
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
     </header>
   )
