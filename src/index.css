@@ -111,6 +111,12 @@ a:hover {
   color: var(--color-bg);
 }
 
+/* -----------Display Layouts------------ */
+.flex__y {
+  display: flex;
+  flex-direction: column;
+}
+
 img {
   display: block;
   width: 100%;

@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css';
 import CTA from './CTA';
 import ProfileImg from '../../../assets/images/profile.png'
 import HeaderSocials from './HeaderSocials';
@@ -12,7 +13,7 @@ const Header = () => {
         <h5>Frontend Developer</h5>
         <CTA />{/* Call to action */}
         <HeaderSocials />
-        <div className="profile-img">
+        <div className="profile__img">
           <img src={ProfileImg} alt="" />
         </div>
 
