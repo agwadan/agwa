@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineMail } from 'react-icons/ai';
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+      <a href="#"><AiOutlineHome /> </a>
+      <a href="#about"><AiOutlineUser /> </a>
+      <a href="#experience"><AiOutlineBook /> </a>
+      {/*  <a href="#"><AiOutlineHome /> </a> */}
+      <a href="#contacts"><AiOutlineMail /> </a>
+    </nav>
   )
 }
 

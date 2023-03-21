@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import LandingPage from './components/landingPage';
 import Header from './components/header';
 import Nav from './components/nav';
 import Experience from './components/experience';
