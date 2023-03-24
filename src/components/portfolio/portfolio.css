@@ -1,10 +1,33 @@
-.Left {
-  background: var(--primary-color);
-  color: var(--main-white);
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
-.Left h1 span {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
+.portfolio__item {
+  background: var(--color-secondary);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-secondary);
+  background: transparent;
+}
+
+.portfolio__item_image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item_cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
