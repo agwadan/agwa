@@ -10,46 +10,24 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
 
-        <article className="portfolio__item">
-          <div className="portfolio__item_image">
-            <img src={Portfolio1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item_cta">
-            <a href="https://github.com/agwadan" className='btn'>Github</a>
-            <a href="https://agwa.netlify.app" className='btn btn-primary' target='_blank'>Agwa</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item_image">
-            <img src={Portfolio1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item_cta">
-            <a href="https://github.com/agwadan" className='btn'>Github</a>
-            <a href="https://agwa.netlify.app" className='btn btn-primary' target='_blank'>Agwa</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item_image">
-            <img src={Portfolio1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item_cta">
-            <a href="https://github.com/agwadan" className='btn'>Github</a>
-            <a href="https://agwa.netlify.app" className='btn btn-primary' target='_blank'>Agwa</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item_image">
-            <img src={Portfolio1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item_cta">
-            <a href="https://github.com/agwadan" className='btn'>Github</a>
-            <a href="https://agwa.netlify.app" className='btn btn-primary' target='_blank'>Agwa</a>
-          </div>
-        </article>
+        {
+          data.map(({ id, image, title, github, demo }) => {
+            return (
+              <article key={id} className="portfolio__item">
+                <div className="portfolio__item_image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item_cta">
+                  <a href={github} className='btn'>Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank'>Agwa</a>
+                </div>
+              </article>
+            )
+          })
+        }
+
+
 
       </div>
     </section>
