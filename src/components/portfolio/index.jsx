@@ -1,9 +1,6 @@
 import React from 'react';
 import './portfolio.css';
-import Portfolio1 from '../../../assets/images/portfolio_1.png';
-import Portfolio2 from '../../../assets/images/portfolio_2.png';
-import Portfolio3 from '../../../assets/images/portfolio_3.png';
-import Portfolio4 from '../../../assets/images/portfolio_4.png';
+import data from '../../data/portfolioData';
 
 const Portfolio = () => {
   return (
@@ -14,7 +11,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
 
         <article className="portfolio__item">
-          <div className="portolio__item_image">
+          <div className="portfolio__item_image">
             <img src={Portfolio1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
@@ -24,7 +21,7 @@ const Portfolio = () => {
           </div>
         </article>
         <article className="portfolio__item">
-          <div className="portolio__item_image">
+          <div className="portfolio__item_image">
             <img src={Portfolio1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
@@ -34,7 +31,7 @@ const Portfolio = () => {
           </div>
         </article>
         <article className="portfolio__item">
-          <div className="portolio__item_image">
+          <div className="portfolio__item_image">
             <img src={Portfolio1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
@@ -44,7 +41,7 @@ const Portfolio = () => {
           </div>
         </article>
         <article className="portfolio__item">
-          <div className="portolio__item_image">
+          <div className="portfolio__item_image">
             <img src={Portfolio1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
