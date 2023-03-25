@@ -3,6 +3,7 @@ import './header.css';
 import CTA from './CTA';
 import ProfileImg from '../../../assets/images/profile.png'
 import HeaderSocials from './HeaderSocials';
+import { AiOutlineArrowDown } from 'react-icons/ai';
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          <AiOutlineArrowDown />
         </a>
       </div>
     </header>
