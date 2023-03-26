@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ProfileImg from '../../../assets/images/profile.png';
+import ProfileImg from '/images/profile.png';
 import { FaAward } from 'react-icons/fa';
 
 const About = () => {

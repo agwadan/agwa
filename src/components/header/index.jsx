@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import ProfileImg from '../../../assets/images/profile.png'
+import ProfileImg from '/images/profile.png'
 import HeaderSocials from './HeaderSocials';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 
