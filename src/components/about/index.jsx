@@ -37,7 +37,7 @@ const About = () => {
               <small>3+ Years of Frontend Development</small>
             </article>
           </div> */}
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore doloremque nulla nihil, quaerat illum fugiat nostrum repellendus numquam. Reiciendis deserunt officiis quibusdam nam, sed tempore quas odit asperiores iure dignissimos incidunt dolorem ratione libero a aut in! Recusandae, pariatur nam eos nihil facilis harum reprehenderit?</p>
+          <p>Hello, my name is Daniel Agwa and I am a frontend software developer. With several years of experience in the field, I have honed my skills in HTML, CSS, JavaScript, and other key frontend technologies. I am passionate about building beautiful, responsive, and user-friendly interfaces that improve the user experience. As a dedicated learner, I am always exploring new technologies and techniques to stay ahead of the curve. When I'm not coding, I enjoy spending time outdoors, making music, and traveling.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
