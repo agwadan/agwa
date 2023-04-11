@@ -57,9 +57,8 @@ header {
   background: var(--color-primary);
   color: var(--color-bg);
   padding: .7rem 1rem .4rem 1rem;
-
+  animation: animate__down infinite 2s;
   border-radius: 50%;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -76,5 +75,19 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+}
+
+/* ---------------------Animations ---------------- */
+@keyframes animate__down{
+  0%, 20%, 30%, 50%,70%, 80%,90%, 100% {
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(10px);
+    
+  }
+  60%{
+    transform: translateY(5px);
   }
 }
