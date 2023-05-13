@@ -5,7 +5,7 @@ header {
 }
 
 .header__container {
-  text-align: center;
+  /*  text-align: center; */
   height: 100%;
   position: relative;
 }
@@ -15,7 +15,7 @@ header {
   margin-top: 2.5rem;
   display: flex;
   gap: 1.2rem;
-  justify-content: center;
+  /*  justify-content: center; */
 }
 
 /* -----------Header Socials------------ */
@@ -39,13 +39,17 @@ header {
 .profile__img {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 30rem;
+  height: 25rem;
   position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  /* left: calc(50% - 11rem); */
+  /* margin-top: 4rem; */
+  border-radius: 1rem 12rem 1rem 12rem;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  /*  padding: 5rem 1.5rem 1.5rem 1.5rem; */
+}
+
+.right {
+  /*  background: var(--color-primary); */
 }
 
 .scroll__down {
@@ -79,14 +83,24 @@ header {
 }
 
 /* ---------------------Animations ---------------- */
-@keyframes animate__down{
-  0%, 20%, 30%, 50%,70%, 80%,90%, 100% {
+@keyframes animate__down {
+
+  0%,
+  20%,
+  30%,
+  50%,
+  70%,
+  80%,
+  90%,
+  100% {
     transform: translateY(0);
   }
-  40%{
+
+  40% {
     transform: translateY(10px);
   }
-  60%{
+
+  60% {
     transform: translateY(5px);
   }
 }
