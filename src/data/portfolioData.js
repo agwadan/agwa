@@ -15,20 +15,27 @@ const data = [
   },
   {
     id: 3,
+    image: '/images/portfolio_weather_app.png',
+    title: 'Weather App',
+    github: 'https://github.com/agwadan/Weather-App',
+    demo: 'https://agwadan.github.io/Weather-App/'
+  },
+  {
+    id: 4,
     image: '/images/portfolio_2.png',
     title: 'Fast, Secure Hosting Demo',
     github: 'https://github.com/agwadan/hosting-website',
     demo: 'https://loruki-clone1.netlify.app/'
   },
   {
-    id: 4,
+    id: 5,
     image: '/images/portfolio_3.png',
     title: 'React 3D Demo',
     github: 'https://github.com/agwadan/react-3d',
     demo: 'https://react-3d-demo.netlify.app/'
   },
   {
-    id: 5,
+    id: 6,
     image: '/images/portfolio_4.png',
     title: 'Aya Landing Page v1',
     github: 'https://github.com/agwadan/',
