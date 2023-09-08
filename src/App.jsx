@@ -7,7 +7,7 @@ import About from "./components/about";
 import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
-import MyTranscriptionPage from "./components/transcription";
+import TranscriptionPage from "./components/transcription";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<MainPortfolio />} />
-        <Route path="/transcribe" element={<MyTranscriptionPage />} />
+        <Route path="/transcribe" element={<TranscriptionPage />} />
       </Routes>
     </Router>
   );
