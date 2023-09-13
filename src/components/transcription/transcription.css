@@ -1,0 +1,83 @@
+ /* ------ transcription-page STYLES -------- */
+
+.transcription-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: var(--color-bg-secondary);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.transcription-page h1,
+.transcription-page h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.transcription-page p {
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.transcription-page .intro-section {
+  background: var(--color-secondary);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.transcription-page .why-hire-me,
+.transcription-page .pricing-section {
+  background: var(--color-bg);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.transcription-page .contact-details {
+  background: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 70%;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.transcription-page .contact-details h2 {
+  color: var(--color-bg);
+}
+
+.transcription-page .contact-details p {
+  margin-bottom: 1rem;
+}
+
+.transcription-page .contact-details a {
+  color: var(--color-bg);
+  font-weight: 600;
+  transition: color 0.2s ease-in-out;
+}
+
+.transcription-page .contact-details a:hover {
+  color: var(--color-secondary);
+}
+
+/* Responsive styles for Tablets */
+@media screen and (max-width: 1024px) {
+  .transcription-page p {
+    width: 80%;
+  }
+}
+
+/* Responsive styles for Mobiles */
+@media screen and (max-width: 600px) {
+  .transcription-page p,
+  .transcription-page .contact-details {
+    width: 100%;
+  }
+}
