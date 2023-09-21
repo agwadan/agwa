@@ -112,6 +112,13 @@ a:hover {
 }
 
 /* -----------Display Layouts------------ */
+
+.flex__x{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 .flex__y {
   display: flex;
   flex-direction: column;
