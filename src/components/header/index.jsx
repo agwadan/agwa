@@ -4,6 +4,7 @@ import CTA from "./CTA";
 import ProfileImg from "/images/profile.png";
 import HeaderSocials from "./HeaderSocials";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import { BsChevronDoubleDown } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -19,15 +20,14 @@ const Header = () => {
           <HeaderSocials />
         </div>
 
-        <div className="right">
+        <div className="right flex__y">
           <div className="profile__img">
             <img src={ProfileImg} alt="" />
           </div>
-
-          <a href="#contact" className="scroll__down">
-            <AiOutlineArrowDown />
-          </a>
         </div>
+        <a href="#contact" className="scroll__down">
+          <BsChevronDoubleDown />
+        </a>
       </div>
     </header>
   );

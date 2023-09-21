@@ -4,11 +4,6 @@ header {
   overflow: hidden;
 }
 
-.header__container {
-  height: 100%;
-  position: relative;
-}
-
 /* ---------------CTA---------------- */
 .cta {
   margin-top: 2.5rem;
@@ -53,13 +48,11 @@ header {
 }
 
 .scroll__down {
-  position: absolute;
-  right: -2.3rem;
-  bottom: 5rem;
+  margin-left: 155%;
+  margin-top: 56%;
   font-weight: 300;
   font-size: 1.5rem;
-  background: var(--color-primary);
-  color: var(--color-bg);
+  color: var(--color-primary);
   padding: .7rem 1rem .4rem 1rem;
   animation: animate__down infinite 2s;
   border-radius: 50%;
