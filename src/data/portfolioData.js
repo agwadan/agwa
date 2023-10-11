@@ -29,10 +29,10 @@ const data = [
   },
   {
     id: 5,
-    image: '/images/portfolio_3.png',
-    title: 'React 3D Demo',
-    github: 'https://github.com/agwadan/react-3d',
-    demo: 'https://react-3d-demo.netlify.app/'
+    image: '/images/portfolio_job_postings.png',
+    title: 'Hatch Your Next Job',
+    github: 'https://github.com/agwadan/lara-gigs',
+    
   },
   {
     id: 6,
