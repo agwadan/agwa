@@ -14,7 +14,7 @@ const Header = () => {
           <img className="smallscreen_img" src={ProfileImg} alt="" />
           <h5>Hello I am</h5>
           <h1>Daniel Agwa</h1>
-          <h5>Frontend Developer</h5>
+          <h5>Software Developer</h5>
           <CTA />
           {/* Call to action */}
           <HeaderSocials />
