@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsTwitterX } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
@@ -14,7 +14,7 @@ const HeaderSocials = () => {
         <BsGithub />
       </a>
       <a href="https://twitter.com/agwa___" target="_blank">
-        <BsTwitter />
+        <BsTwitterX />
       </a>
     </div>
   );
