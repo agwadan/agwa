@@ -1,10 +1,10 @@
 const data = [
   {
     id: 7,
-    image: '/images/portfolio_countries_app.png',
-    title: 'Your One Stop GIS Consultancy Site',
-    github: 'https://github.com/agwadan/Countries-App',
-    demo: 'https://agwadan.github.io/Countries-App/'
+    image: '/images/portfolio_mara_geo.png',
+    title: 'Navigating Spatial Solutions Together',
+    github: 'https://github.com/agwadan/mara-geo',
+    demo: 'https://marageo.netlify.app/'
   },
   {
     id: 1,
@@ -41,13 +41,6 @@ const data = [
     github: 'https://github.com/agwadan/lara-gigs',
     
   },
-  {
-    id: 6,
-    image: '/images/portfolio_4.png',
-    title: 'Aya Landing Page v1',
-    github: 'https://github.com/agwadan/',
-    demo: 'https://ayadeepdive.netlify.app/'
-  }
 ]
 
 export default data;
