@@ -15,11 +15,16 @@
 
 .about_me_image {
   border-radius: 2rem;
+
   overflow: hidden;
   transform: rotate(6deg);
   transition: var(--transition);
   background: rgba(77, 181, 255, 0.3);
   height: 100%;
+}
+
+.about_me_image img{
+ bottom: 3rem;
 }
 
 .about_me_image:hover {
