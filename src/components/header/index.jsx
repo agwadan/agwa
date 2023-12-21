@@ -5,6 +5,7 @@ import ProfileImg from "/images/profile.png";
 import HeaderSocials from "./HeaderSocials";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { BsChevronDoubleDown } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -21,9 +22,14 @@ const Header = () => {
         </div>
 
         <div className="right flex__y">
-          <div className="profile__img">
+          <motion.div
+            className="profile__img"
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+          >
             <img src={ProfileImg} alt="" />
-          </div>
+          </motion.div>
         </div>
         <a href="#contact" className="scroll__down">
           <BsChevronDoubleDown />
