@@ -15,9 +15,27 @@ const Header = () => {
       <div className="container header__container grid__2">
         <div className="left">
           <img className="smallscreen_img" src={ProfileImg} alt="" />
-          <h5>Hello I am</h5>
-          <h1>Daniel Agwa</h1>
-          <h5>Software Developer</h5>
+          <motion.h5
+            initial={{ opacity: 0, y: -60 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1 }}
+          >
+            Hello I am
+          </motion.h5>
+          <motion.h1
+            initial={{ opacity: 0, y: -40 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1 }}
+          >
+            Daniel Agwa
+          </motion.h1>
+          <motion.h5
+            initial={{ opacity: 0, y: -20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1 }}
+          >
+            Software Developer
+          </motion.h5>
           <CTA />
           {/* Call to action */}
           <HeaderSocials />
@@ -26,7 +44,7 @@ const Header = () => {
         <div className="right flex__y">
           <motion.div
             className="profile__img"
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 200 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 1 }}
           >
