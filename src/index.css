@@ -18,6 +18,7 @@
   --color-secondary: rgba(77, 181, 255, 0.4);
   --color-white: #ffffff;
   --color-light: rgba(255, 255, 255, 0.6);
+  --color-dark: rgba(22, 22, 22, 0.6);
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -37,10 +38,17 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
   line-height: 1.7;
   background-image: url(../assets/images/bg-texture.png);
 }
+
+/* body .dark{
+
+}
+
+body .light{
+  
+} */
 
 /* -------GENERAL STYLES ------------------- */
 .container {
@@ -76,9 +84,17 @@ section>h2 {
   margin-bottom: 3rem;
 }
 
-.text-light {
-  color: var(--color-light);
+.light-mode {
+  color: var(--color-dark);
+  background: var(--color-bg);
 }
+
+.dark-mode{
+  color:var(--color-white);
+  background: var(--color-light);
+}
+
+.dark-mode 
 
 a {
   color: var(--color-primary);

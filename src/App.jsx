@@ -8,25 +8,27 @@ import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
 import TranscriptionPage from "./components/transcription";
+import { ThemeProvider, useTheme } from "./ThemeContext";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<MainPortfolio />} />
-        <Route path="/transcribe" element={<TranscriptionPage />} />
-      </Routes>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPortfolio />} />
+          <Route path="/transcribe" element={<TranscriptionPage />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
 }
 
 export default App;
 
 export const MainPortfolio = () => {
+  const { lightMode, toggleTheme } = useTheme();
   return (
-    <div className="App">
+    <div className={`App ${lightMode ? "light-mode" : "dark-mode"}`}>
       <Header />
       <Nav />
       <About />
