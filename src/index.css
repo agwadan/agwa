@@ -12,6 +12,7 @@
 
 :root {
   --color-bg: #1f1f38;
+  --color-bg-light: #ccccf7;
   --color-bg-secondary: #2c2c6c;
   /* ----Secondary Background color */
   --color-primary: #4db5ff;
@@ -37,18 +38,9 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
   line-height: 1.7;
   background-image: url(../assets/images/bg-texture.png);
 }
-
-/* body .dark{
-
-}
-
-body .light{
-  
-} */
 
 /* -------GENERAL STYLES ------------------- */
 .container {
@@ -86,15 +78,23 @@ section>h2 {
 
 .light-mode {
   color: var(--color-dark);
-  background: var(--color-bg);
+  background: var(--color-bg-light);
+}
+
+.light-mode p{
+  color: var(--color-dark);
 }
 
 .dark-mode{
   color:var(--color-white);
-  background: var(--color-light);
+  background: var(--color-bg);
 }
 
-.dark-mode 
+.dark-mode section>h2,
+.dark-mode section>h5 {
+  text-align: center;
+  color: var(--color-light);
+}
 
 a {
   color: var(--color-primary);

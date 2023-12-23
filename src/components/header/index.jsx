@@ -12,6 +12,9 @@ const Header = () => {
   const ref = useRef(null);
   const isInView = useInView(ref);
   const { toggleTheme, lightMode } = useTheme();
+  console.log("====================================");
+  console.log(lightMode);
+  console.log("====================================");
   return (
     <header ref={ref}>
       <button onClick={toggleTheme}>
