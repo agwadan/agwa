@@ -12,14 +12,14 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-light: #ccccf7;
+  --color-bg-light: #e1e1f0;
   --color-bg-secondary: #2c2c6c;
   /* ----Secondary Background color */
   --color-primary: #4db5ff;
   --color-secondary: rgba(77, 181, 255, 0.4);
   --color-white: #ffffff;
-  --color-light: rgba(255, 255, 255, 0.6);
-  --color-dark: rgba(22, 22, 22, 0.6);
+  --color-light: rgb(247, 247, 247);
+  --color-dark: #2c2c6c;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -83,6 +83,16 @@ section>h2 {
 
 .light-mode p{
   color: var(--color-dark);
+}
+
+.light-mode .btn{
+  color: var(--color-bg-secondary);
+  border: 1px solid var(--color-bg-secondary);
+}
+
+.light-mode .btn-primary{
+  color: var(--color-light);
+  background-color: var(--color-bg-secondary);
 }
 
 .dark-mode{
