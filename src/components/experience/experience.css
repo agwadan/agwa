@@ -23,6 +23,11 @@
   color: var(--color-primary);
 }
 
+.light-mode .experience__container h4,
+.light-mode .experience__container small{
+  color: var(--color-primary);
+}
+
 .experience__content {
   gap: 2rem;
 }

@@ -89,6 +89,11 @@ section>h2 {
   color: var(--col);
 }
 
+.light-mode section>h2,
+.light-mode section>h5{
+  color: var(--color-bg-secondary);
+}
+
 .light-mode .btn{
   color: var(--color-bg-secondary);
   border: 1px solid var(--color-bg-secondary);
