@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Switch from "react-switch";
 import "./header.css";
 import CTA from "./CTA";
 import ProfileImg from "/images/profile_2.jpg";
@@ -12,14 +13,10 @@ const Header = () => {
   const ref = useRef(null);
   const isInView = useInView(ref);
   const { toggleTheme, lightMode } = useTheme();
-  console.log("====================================");
-  console.log(lightMode);
-  console.log("====================================");
+
   return (
     <header ref={ref}>
-      <button onClick={toggleTheme}>
-        {lightMode ? "Switch to Dark Mode" : "Switch to Light Mode"}
-      </button>
+      <div className="theme-toggle"></div>
       <div className="container header__container grid__2">
         <div className="left">
           <img className="smallscreen_img" src={ProfileImg} alt="" />

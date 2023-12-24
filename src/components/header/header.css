@@ -4,6 +4,14 @@ header {
   overflow: hidden;
 }
 
+.theme-toggle{
+  position: absolute;
+  top: 0;
+  margin-top: 2rem;
+  right: 0;
+  margin-right: 2rem;
+}
+
 /* ---------------CTA---------------- */
 .cta {
   margin-top: 2.5rem;
@@ -35,11 +43,9 @@ header {
 
 .light-mode .header__socials::before,
 .light-mode .header__socials::after {
-  
   background-color: var(--color-bg-secondary);  /* This is the color of the line. Change as desired */
   margin-top: 10px;  /* Optional: adds some space above the line */
   margin-bottom: 10px; 
-  
 }
 
 /* -------------- profile__img---------------- */

@@ -1,7 +1,9 @@
 nav {
-  background: rgba(0, 0, 0, 0.3);
+  background: #0000004d;
   width: max-content;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.7rem 1.7rem;
   z-index: 2;
   position: fixed;
@@ -27,6 +29,6 @@ nav a:hover {
 }
 
 nav a.active {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--color-bg-secondary);
+  color: var(--color-light);
 }

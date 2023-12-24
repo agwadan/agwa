@@ -27,9 +27,7 @@ export default App;
 
 export const MainPortfolio = () => {
   const { lightMode, toggleTheme } = useTheme();
-  console.log("====================================");
-  console.log(`App: ${lightMode}`);
-  console.log("====================================");
+
   return (
     <div className={`App ${lightMode ? "light-mode" : "dark-mode"}`}>
       <Header />
