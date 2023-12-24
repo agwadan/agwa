@@ -1,20 +1,26 @@
 import React, { useRef } from "react";
+import Switch from "react-switch";
 import "./header.css";
 import CTA from "./CTA";
+import ProfileImgSmallScreen from "/images/profile.png";
 import ProfileImg from "/images/profile_2.jpg";
 import HeaderSocials from "./HeaderSocials";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import { motion, useInView } from "framer-motion";
+import { useTheme } from "../../ThemeContext";
 
 const Header = () => {
   const ref = useRef(null);
   const isInView = useInView(ref);
+  const { toggleTheme, lightMode } = useTheme();
+
   return (
     <header ref={ref}>
+      <div className="theme-toggle"></div>
       <div className="container header__container grid__2">
         <div className="left">
-          <img className="smallscreen_img" src={ProfileImg} alt="" />
+          <img className="smallscreen_img" src={ProfileImgSmallScreen} alt="" />
           <motion.h5
             initial={{ opacity: 0, y: -60 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
