@@ -33,6 +33,15 @@ header {
   
 }
 
+.light-mode .header__socials::before,
+.light-mode .header__socials::after {
+  
+  background-color: var(--color-bg-secondary);  /* This is the color of the line. Change as desired */
+  margin-top: 10px;  /* Optional: adds some space above the line */
+  margin-bottom: 10px; 
+  
+}
+
 /* -------------- profile__img---------------- */
 .header__container .profile__img {
   background: linear-gradient(var(--color-primary), transparent);
