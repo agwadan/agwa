@@ -15,7 +15,7 @@ const About = () => {
       <div className="container about__container" ref={ref}>
         <motion.div
           className="about__me"
-          initial={{ opacity: 0, x: -60 }}
+          initial={{ opacity: 0, x: -40 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}
         >
@@ -26,7 +26,7 @@ const About = () => {
 
         <motion.div
           className="about__content"
-          initial={{ opacity: 0, x: 60 }}
+          initial={{ opacity: 0, x: 40 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}
         >

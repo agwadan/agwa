@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { motion, useInView } from "framer-motion";
 
 const Experience = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
   return (
-    <section id="experience">
+    <section id="experience" ref={ref}>
       <h5>My Skills</h5>
       <h2>My Experience</h2>
 
       <div className="container experience__container grid__2">
-        <div className="experiece__frontend">
+        <motion.div
+          className="experiece__frontend"
+          initial={{ opacity: 0, x: -40 }}
+          animate={isInView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 1 }}
+        >
           <h3>Frontend Development</h3>
           <div className="experience__content grid__2">
             <article className="experience__details">
@@ -51,9 +59,14 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="experiece__backend">
+        <motion.div
+          className="experiece__backend"
+          initial={{ opacity: 0, x: 40 }}
+          animate={isInView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 1 }}
+        >
           <h3>Backend Development</h3>
           <div className="experience__content grid__2">
             <article className="experience__details">
@@ -103,7 +116,7 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
