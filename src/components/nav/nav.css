@@ -32,3 +32,16 @@ nav a.active {
   background: var(--color-bg-secondary);
   color: var(--color-light);
 }
+
+nav .nav__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav span{
+  font-size: .6rem;
+  font-weight: 100;
+  
+}
