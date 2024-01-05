@@ -26,7 +26,7 @@ const Nav = () => {
         >
           <AiOutlineHome />{" "}
         </a>
-        <span>Home</span>
+        {/* <span>Home</span> */}
       </div>
 
       <div className="nav__item">
@@ -37,7 +37,7 @@ const Nav = () => {
         >
           <AiOutlineUser />{" "}
         </a>
-        <span>About</span>
+        {/* <span>About</span> */}
       </div>
 
       <div className="nav__item">
@@ -48,7 +48,7 @@ const Nav = () => {
         >
           <AiOutlineBook />{" "}
         </a>
-        <span>Exp</span>
+        {/* <span>Exp</span> */}
       </div>
       <div className="nav__item">
         <a
@@ -58,7 +58,7 @@ const Nav = () => {
         >
           <BsBriefcase />{" "}
         </a>
-        <span>Port</span>
+        {/* <span>Port</span> */}
       </div>
       <div className="nav__item">
         <a
@@ -68,7 +68,7 @@ const Nav = () => {
         >
           <AiOutlineMail />{" "}
         </a>
-        <span>Contact</span>
+        {/* <span>Contact</span> */}
       </div>
       <div className="nav__item">
         <Switch
