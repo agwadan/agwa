@@ -11,6 +11,11 @@
   border: 1px solid transparent;
   transition: var(--transition);
   cursor: pointer;
+
+}
+
+.portfolio__item:hover{
+  transform: translateY(-15px);
 }
 
 .portfolio__item:hover {
