@@ -17,6 +17,10 @@ const Experience = () => {
           initial={{ opacity: 0, x: -40 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}
+          whileHover={{
+            backgroundColor: "transparent",
+            transition: { duration: 0.4 },
+          }}
         >
           <h3>Frontend Development</h3>
           <div className="experience__content grid__2">

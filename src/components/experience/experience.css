@@ -14,6 +14,7 @@
   border-color: var(--color-secondary);
   cursor: default;
   color: var(--color-primary);
+  transition: var(--transition);
 }
 
 .experience__container>div h3 {
