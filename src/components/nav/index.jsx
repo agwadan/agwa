@@ -18,53 +18,72 @@ const Nav = () => {
   const darkIcon = <IoMoon color="white" />;
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        <AiOutlineHome />{" "}
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />{" "}
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <AiOutlineBook />{" "}
-      </a>
-      <a
-        href="#portfolio"
-        onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "#portfolio" ? "active" : ""}
-      >
-        <BsBriefcase />{" "}
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <AiOutlineMail />{" "}
-      </a>
-      <Switch
-        onChange={toggleTheme}
-        checked={!lightMode}
-        onColor="#4db5ff"
-        offColor="#2c2c6c"
-        /* checkedIcon={lightIcon}
+      <div className="nav__item">
+        <a
+          href="#"
+          onClick={() => setActiveNav("#")}
+          className={activeNav === "#" ? "active" : ""}
+        >
+          <AiOutlineHome />{" "}
+        </a>
+        {/* <span>Home</span> */}
+      </div>
+
+      <div className="nav__item">
+        <a
+          href="#about"
+          onClick={() => setActiveNav("#about")}
+          className={activeNav === "#about" ? "active" : ""}
+        >
+          <AiOutlineUser />{" "}
+        </a>
+        {/* <span>About</span> */}
+      </div>
+
+      <div className="nav__item">
+        <a
+          href="#experience"
+          onClick={() => setActiveNav("#experience")}
+          className={activeNav === "#experience" ? "active" : ""}
+        >
+          <AiOutlineBook />{" "}
+        </a>
+        {/* <span>Exp</span> */}
+      </div>
+      <div className="nav__item">
+        <a
+          href="#portfolio"
+          onClick={() => setActiveNav("#portfolio")}
+          className={activeNav === "#portfolio" ? "active" : ""}
+        >
+          <BsBriefcase />{" "}
+        </a>
+        {/* <span>Port</span> */}
+      </div>
+      <div className="nav__item">
+        <a
+          href="#contact"
+          onClick={() => setActiveNav("#contact")}
+          className={activeNav === "#contact" ? "active" : ""}
+        >
+          <AiOutlineMail />{" "}
+        </a>
+        {/* <span>Contact</span> */}
+      </div>
+      <div className="nav__item">
+        <Switch
+          onChange={toggleTheme}
+          checked={!lightMode}
+          onColor="#4db5ff"
+          offColor="#2c2c6c"
+          /* checkedIcon={lightIcon}
         uncheckedIcon={darkIcon} */
-        checkedIcon={false}
-        uncheckedIcon={false}
-        height={20}
-        width={40}
-      />
+          checkedIcon={false}
+          uncheckedIcon={false}
+          height={20}
+          width={40}
+        />
+      </div>
     </nav>
   );
 };
