@@ -1,11 +1,12 @@
 const data = [
   {
-    id: 7,
-    image: '/images/portfolio_mara_geo.png',
-    title: 'Navigating Spatial Solutions Together',
-    github: 'https://github.com/agwadan/mara-geo',
-    demo: 'https://marageo.netlify.app/'
+    id: 2,
+    image: '/images/portfolio_1.png',
+    title: 'Where Cinema Lovers Unite',
+    github: 'https://github.com/agwadan/nuxtjs-movie-app',
+    demo: 'https://nuxtmovieapp.netlify.app/'
   },
+  
   {
     id: 1,
     image: '/images/portfolio_countries_app.png',
@@ -14,11 +15,11 @@ const data = [
     demo: 'https://agwadan.github.io/Countries-App/'
   },
   {
-    id: 2,
-    image: '/images/portfolio_1.png',
-    title: 'Where Cinema Lovers Unite',
-    github: 'https://github.com/agwadan/nuxtjs-movie-app',
-    demo: 'https://nuxtmovieapp.netlify.app/'
+    id: 7,
+    image: '/images/portfolio_mara_geo.png',
+    title: 'Navigating Spatial Solutions Together',
+    github: 'https://github.com/agwadan/mara-geo',
+    demo: 'https://marageo.netlify.app/'
   },
   {
     id: 3,
