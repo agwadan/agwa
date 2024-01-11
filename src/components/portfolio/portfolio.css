@@ -10,7 +10,12 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
-  cursor: pointer;
+  
+
+}
+
+.portfolio__item:hover{
+  transform: translateY(-15px);
 }
 
 .portfolio__item:hover {
@@ -21,6 +26,12 @@
 .portfolio__item_image {
   border-radius: 1.5rem;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio__item_image:hover{
+  transform: scale(0.95);
+  transition: .5s;
 }
 
 .portfolio__item h3 {

@@ -13,7 +13,11 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item_image">
-                <img src={image} alt={title} />
+                <img
+                  src={image}
+                  alt={title}
+                  onClick={() => console.log("clicked")}
+                />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item_cta">
