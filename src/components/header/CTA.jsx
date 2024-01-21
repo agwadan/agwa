@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Resume from "/Resume_Daniel_Agwa.pdf";
+import Resume from "/Resume_Daniel_Abraham_Agwa.pdf";
 import { motion, useInView } from "framer-motion";
 
 const CTA = () => {
