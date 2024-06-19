@@ -16,10 +16,9 @@ const data = [
   },
   {
     id: 7,
-    image: '/images/portfolio_mara_geo.png',
-    title: 'Navigating Spatial Solutions Together',
-    github: 'https://github.com/agwadan/mara-geo',
-    demo: 'https://marageo.netlify.app/'
+    image: '/images/portfolio_ello.png',
+    title: 'Aid Learning Through Reading',
+    github: 'https://github.com/agwadan/ello-assignment',
   },
   {
     id: 3,
@@ -40,7 +39,6 @@ const data = [
     image: '/images/portfolio_job_postings.png',
     title: 'Hatch Your Next Job',
     github: 'https://github.com/agwadan/lara-gigs',
-    
   },
 ]
 
