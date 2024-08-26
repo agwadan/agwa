@@ -9,6 +9,7 @@
   "dependencies": {
     "@react-spring/parallax": "^9.7.3",
     "framer-motion": "^10.16.16",
+    "rc-tooltip": "^6.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ga4": "^2.1.0",

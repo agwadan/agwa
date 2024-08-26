@@ -162,6 +162,16 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.tool__tip {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background-color: var(--color-primary);
+  padding: 2;
+  border-radius: 4px;
+}
 
 .center__x {
   display: flex;

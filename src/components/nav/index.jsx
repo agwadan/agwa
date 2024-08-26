@@ -9,6 +9,8 @@ import {
 } from "react-icons/ai";
 import { IoSunnyOutline, IoMoon } from "react-icons/io5";
 import { BsBriefcase } from "react-icons/bs";
+import Tooltip from "rc-tooltip";
+import "rc-tooltip/assets/bootstrap.css";
 import { useTheme } from "../../ThemeContext";
 
 const Nav = () => {
@@ -19,56 +21,88 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav__item">
-        <a
-          href="#"
-          onClick={() => setActiveNav("#")}
-          className={activeNav === "#" ? "active" : ""}
+        <Tooltip
+          placement="top"
+          trigger={["hover"]}
+          overlay="Home"
+          mouseLeaveDelay="0.1"
         >
-          <AiOutlineHome />{" "}
-        </a>
-        {/* <span>Home</span> */}
+          <a
+            href="#"
+            onClick={() => setActiveNav("#")}
+            className={activeNav === "#" ? "active" : ""}
+          >
+            <AiOutlineHome />{" "}
+          </a>
+        </Tooltip>
       </div>
 
       <div className="nav__item">
-        <a
-          href="#about"
-          onClick={() => setActiveNav("#about")}
-          className={activeNav === "#about" ? "active" : ""}
+        <Tooltip
+          placement="top"
+          trigger={["hover"]}
+          overlay="About Me"
+          mouseLeaveDelay="0.1"
         >
-          <AiOutlineUser />{" "}
-        </a>
-        {/* <span>About</span> */}
+          <a
+            href="#about"
+            onClick={() => setActiveNav("#about")}
+            className={activeNav === "#about" ? "active" : ""}
+          >
+            <AiOutlineUser />{" "}
+          </a>
+        </Tooltip>
       </div>
 
       <div className="nav__item">
-        <a
-          href="#experience"
-          onClick={() => setActiveNav("#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
+        <Tooltip
+          placement="top"
+          trigger={["hover"]}
+          overlay="Experience"
+          mouseLeaveDelay="0.1"
         >
-          <AiOutlineBook />{" "}
-        </a>
-        {/* <span>Exp</span> */}
+          <a
+            href="#experience"
+            onClick={() => setActiveNav("#experience")}
+            className={activeNav === "#experience" ? "active" : ""}
+          >
+            <AiOutlineBook />{" "}
+          </a>
+        </Tooltip>
       </div>
+
       <div className="nav__item">
-        <a
-          href="#portfolio"
-          onClick={() => setActiveNav("#portfolio")}
-          className={activeNav === "#portfolio" ? "active" : ""}
+        <Tooltip
+          placement="top"
+          trigger={["hover"]}
+          overlay="Portfolio"
+          mouseLeaveDelay="0.1"
         >
-          <BsBriefcase />{" "}
-        </a>
-        {/* <span>Port</span> */}
+          <a
+            href="#portfolio"
+            onClick={() => setActiveNav("#portfolio")}
+            className={activeNav === "#portfolio" ? "active" : ""}
+          >
+            <BsBriefcase />{" "}
+          </a>
+        </Tooltip>
       </div>
+
       <div className="nav__item">
-        <a
-          href="#contact"
-          onClick={() => setActiveNav("#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
+        <Tooltip
+          placement="top"
+          trigger={["hover"]}
+          overlay="Contact Me"
+          mouseLeaveDelay="0.1"
         >
-          <AiOutlineMail />{" "}
-        </a>
-        {/* <span>Contact</span> */}
+          <a
+            href="#contact"
+            onClick={() => setActiveNav("#contact")}
+            className={activeNav === "#contact" ? "active" : ""}
+          >
+            <AiOutlineMail />{" "}
+          </a>
+        </Tooltip>
       </div>
       <div className="nav__item">
         <Switch
