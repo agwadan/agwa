@@ -6,7 +6,6 @@ const data = [
     github: 'https://github.com/agwadan/nuxtjs-movie-app',
     demo: 'https://nuxtmovieapp.netlify.app/'
   },
-  
   {
     id: 1,
     image: '/images/portfolio_countries_app.png',

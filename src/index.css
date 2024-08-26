@@ -162,7 +162,6 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .tool__tip {
   margin: 0;
   padding: 0;
@@ -173,12 +172,17 @@ a:hover {
   padding: 2;
   border-radius: 4px;
 }
-/* 
-.tool__tip span {
-  background: var(--color-primary);
-  color: white;
-} */
 
+.center__x {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.center__y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 img {
   display: block;
   width: 100%;
