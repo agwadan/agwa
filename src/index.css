@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.7;
   background-image: url(../assets/images/bg-texture.png);
 }
@@ -56,7 +56,6 @@ h5 {
   font-weight: 500;
 }
 
-
 h1 {
   font-size: 2.5rem;
 }
@@ -65,13 +64,13 @@ section {
   margin-top: 8rem;
 }
 
-section>h2,
-section>h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
-section>h2 {
+section > h2 {
   columns: var(--color-primary);
   margin-bottom: 3rem;
 }
@@ -81,36 +80,36 @@ section>h2 {
   background: var(--color-bg-light);
 }
 
-.light-mode p{
+.light-mode p {
   color: var(--color-dark);
 }
 
-.light-mode a{
+.light-mode a {
   color: var(--col);
 }
 
-.light-mode section>h2,
-.light-mode section>h5{
+.light-mode section > h2,
+.light-mode section > h5 {
   color: var(--color-bg-secondary);
 }
 
-.light-mode .btn{
+.light-mode .btn {
   color: var(--color-bg-secondary);
   border: 1px solid var(--color-bg-secondary);
 }
 
-.light-mode .btn-primary{
+.light-mode .btn-primary {
   color: var(--color-light);
   background-color: var(--color-bg-secondary);
 }
 
-.dark-mode{
-  color:var(--color-white);
+.dark-mode {
+  color: var(--color-white);
   background: var(--color-bg);
 }
 
-.dark-mode section>h2,
-.dark-mode section>h5 {
+.dark-mode section > h2,
+.dark-mode section > h5 {
   text-align: center;
   color: var(--color-light);
 }
@@ -147,7 +146,7 @@ a:hover {
 
 /* -----------Display Layouts------------ */
 
-.flex__x{
+.flex__x {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -164,6 +163,16 @@ a:hover {
   grid-template-columns: 1fr 1fr;
 }
 
+.center__x {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.center__y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 img {
   display: block;
   width: 100%;
@@ -182,7 +191,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  section>h2 {
+  section > h2 {
     margin-bottom: 2rem;
   }
 
@@ -191,12 +200,12 @@ img {
   h3,
   h4,
   h5 {
-   font-weight: 400;
+    font-weight: 400;
   }
 
-  p{
+  p {
     font-weight: 300;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   h1 {

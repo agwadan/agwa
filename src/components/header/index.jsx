@@ -47,7 +47,7 @@ const Header = () => {
           <HeaderSocials />
         </div>
 
-        <div className="right flex__y">
+        <div className="right flex__y flex__x center__x">
           <motion.div
             className="profile__img"
             initial={{ opacity: 0, x: 200 }}
