@@ -4,7 +4,12 @@ header {
   overflow: hidden;
 }
 
-.theme-toggle{
+header h5 {
+  font-size: large;
+  font-weight: 200;
+}
+
+.theme-toggle {
   position: absolute;
   top: 0;
   margin-top: 2rem;
@@ -31,21 +36,24 @@ header {
 
 .header__socials::before,
 .header__socials::after {
-  content: '';
+  content: "";
   display: block;
-  height: 1px;  
+  height: 1px;
   width: 5rem;
-  background-color: var(--color-primary);  /* This is the color of the line. Change as desired */
-  margin-top: 10px;  /* Optional: adds some space above the line */
-  margin-bottom: 10px; 
-  
+  background-color: var(
+    --color-primary
+  ); /* This is the color of the line. Change as desired */
+  margin-top: 10px; /* Optional: adds some space above the line */
+  margin-bottom: 10px;
 }
 
 .light-mode .header__socials::before,
 .light-mode .header__socials::after {
-  background-color: var(--color-bg-secondary);  /* This is the color of the line. Change as desired */
-  margin-top: 10px;  /* Optional: adds some space above the line */
-  margin-bottom: 10px; 
+  background-color: var(
+    --color-bg-secondary
+  ); /* This is the color of the line. Change as desired */
+  margin-top: 10px; /* Optional: adds some space above the line */
+  margin-bottom: 10px;
 }
 
 /* -------------- profile__img---------------- */
@@ -58,7 +66,7 @@ header {
   overflow: hidden;
 }
 
-.header__container .smallscreen_img{
+.header__container .smallscreen_img {
   display: none;
 }
 
@@ -68,7 +76,7 @@ header {
   font-weight: 300;
   font-size: 1.5rem;
   color: var(--color-primary);
-  padding: .7rem 1rem .4rem 1rem;
+  padding: 0.7rem 1rem 0.4rem 1rem;
   animation: animate__down infinite 2s;
   border-radius: 50%;
 }
@@ -83,7 +91,7 @@ header {
     display: none;
   }
 
-  .header__container .profile__img{
+  .header__container .profile__img {
     display: none;
   }
 }
@@ -95,12 +103,11 @@ header {
   }
 
   .header__container h1,
-  .header__container h5
-  {
+  .header__container h5 {
     text-align: center;
   }
 
-  .header__container .smallscreen_img{
+  .header__container .smallscreen_img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,7 +118,6 @@ header {
 
 /* ---------------------Animations ---------------- */
 @keyframes animate__down {
-
   0%,
   20%,
   30%,
