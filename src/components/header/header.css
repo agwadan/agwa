@@ -71,8 +71,8 @@ header h5 {
 }
 
 .scroll__down {
-  margin-left: 155%;
-  margin-top: 56%;
+  margin-left: 35vw;
+  margin-top: 30%;
   font-weight: 300;
   font-size: 1.5rem;
   color: var(--color-primary);
