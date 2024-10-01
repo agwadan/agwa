@@ -26,9 +26,10 @@ const Header = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1 }}
           >
-            Hello I am
+            👋🏽 Hello! I am
           </motion.h5>
           <motion.h1
+            className="name"
             initial={{ opacity: 0, y: -40 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1 }}
