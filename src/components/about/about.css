@@ -8,7 +8,12 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
   display: grid;
   place-items: center;
 }
@@ -22,8 +27,8 @@
   height: 100%;
 }
 
-.about_me_image img{
- bottom: 3rem;
+.about_me_image img {
+  bottom: 3rem;
 }
 
 .about_me_image:hover {
@@ -70,7 +75,11 @@
     margin: 1.5rem 0;
   }
 
-  .about__me{
+  .about__me {
     display: none;
+  }
+
+  #about {
+    margin-top: 0;
   }
 }

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./about.css";
-import ProfileImg from "/images/profile_3.jpg";
+/* import ProfileImg from "/images/profile_3.jpg"; */
+import ProfileImg from "/images/profile_2.jpg";
 import { motion, useInView } from "framer-motion";
 import { FaAward } from "react-icons/fa";
 
