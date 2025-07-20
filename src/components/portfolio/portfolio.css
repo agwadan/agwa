@@ -10,11 +10,9 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
-  
-
 }
 
-.portfolio__item:hover{
+.portfolio__item:hover {
   transform: translateY(-15px);
 }
 
@@ -27,11 +25,12 @@
   border-radius: 1.5rem;
   overflow: hidden;
   cursor: pointer;
+  max-height: 11rem;
 }
 
-.portfolio__item_image:hover{
+.portfolio__item_image:hover {
   transform: scale(0.95);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .portfolio__item h3 {

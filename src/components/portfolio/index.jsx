@@ -21,9 +21,11 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item_cta">
-                <a href={github} className="btn" target="_blank">
-                  Github
-                </a>
+                {github && (
+                  <a href={github} className="btn" target="_blank">
+                    Github
+                  </a>
+                )}
                 {demo ? (
                   <a href={demo} className="btn btn-primary" target="_blank">
                     Demo
