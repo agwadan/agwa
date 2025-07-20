@@ -8,6 +8,7 @@ import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
 import TranscriptionPage from "./components/transcription";
+import Certifications from "./components/certifications";
 import { ThemeProvider, useTheme } from "./ThemeContext";
 
 function App() {
@@ -34,6 +35,7 @@ export const MainPortfolio = () => {
       <Nav />
       <About />
       <Experience />
+      <Certifications />
       <Portfolio />
       <Contact />
       <Footer />
