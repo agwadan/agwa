@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import Switch from "react-switch";
 import "./header.css";
 import CTA from "./CTA";
-import ProfileImgSmallScreen from "/images/profile.png";
-import ProfileImg from "/images/profile_2.jpg";
+import ProfileImgSmallScreen from "/images/profile_4.jpeg";
+import ProfileImg from "/images/profile_4.jpeg";
 import HeaderSocials from "./HeaderSocials";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { BsChevronDoubleDown } from "react-icons/bs";
@@ -41,7 +41,7 @@ const Header = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1 }}
           >
-            Software Developer
+            Software Engineer
           </motion.h5>
           <CTA />
           {/* Call to action */}

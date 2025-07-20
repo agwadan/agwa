@@ -6,9 +6,6 @@ import { motion, useInView } from "framer-motion";
 const Contact = () => {
   const ref = useRef(null);
   const isInView = useInView(ref);
-  console.log("====================================");
-  console.log(ref.current);
-  console.log("====================================");
   return (
     <section id="contact" ref={ref}>
       <h5>Get In Touch</h5>
