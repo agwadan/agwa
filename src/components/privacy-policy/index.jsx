@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
           <h2>1. Introduction</h2>
           <p>
             This Privacy Policy applies to the <strong>{appName}</strong> mobile
-            application ("App"), developed and maintained by Daniel Agwa. It
+            application ("App"), developed and maintained by SafariSoul. It
             describes our practices regarding the collection and use of
             information when you use our App.
           </p>
