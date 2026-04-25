@@ -8,6 +8,7 @@ import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
 import TranscriptionPage from "./components/transcription";
+import PrivacyPolicy from "./components/privacy-policy";
 import Certifications from "./components/certifications";
 import { ThemeProvider, useTheme } from "./ThemeContext";
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPortfolio />} />
           <Route path="/transcribe" element={<TranscriptionPage />} />
+          <Route path="/calendar-of-wisdom/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </Router>
     </ThemeProvider>
